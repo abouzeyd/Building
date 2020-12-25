@@ -46,7 +46,7 @@ const Header = ({ title, subtitle }) => {
         sx={{
           textAlign: "center",
           pt: "37px",
-          width: [150, "38rem"],
+          width: [151, "38rem"],
           mx: "auto",
           display: "flex",
           justifyContent: "flex-start",
