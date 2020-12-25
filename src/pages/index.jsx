@@ -20,7 +20,6 @@ const IndexPage = () => {
       />
       <div
         sx={{
-          // bg: "white",
           maxWidth: ["100%", "90%", "90%", 1120],
           textAlign: ["left", "center"],
         }}
