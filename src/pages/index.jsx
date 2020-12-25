@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
 import realisation from "../data/realisation.json"
 import blockTroisImage from "../data/blockTroisImage"
 import Header from "../components/Header"
