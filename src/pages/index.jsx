@@ -15,7 +15,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <Header
-        title="BAT-PREFAB N°1 du batiment en C.I"
+        title="BAT-PREFAB N°1 du batiment en C.I."
         subtitle="avec Nous vous aurez une maison en moin de 3 mois"
       />
       <div
