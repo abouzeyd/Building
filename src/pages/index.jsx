@@ -73,7 +73,7 @@ const IndexPage = () => {
                   pb: [15, 18],
                   borderRadius: 5,
                   width: [250, "18em"],
-                  height: [275, 300],
+                  height: [285, 300],
                   boxShadow:
                     "-2px -2px 5px rgba(0, 0, 0, 0.35), 2px 4px 4px rgba(0, 0, 0, 0.11);",
                   textDecoration: "none",
