@@ -6,7 +6,7 @@ import img1 from "../images/hamburg.jpg"
 import img2 from "../images/mountains.jpg"
 
 const proprietes = {
-  duration: 5000,
+  duration: 9000,
   transitionDuration: 500,
   infinite: true,
   indicators: true,
@@ -26,19 +26,26 @@ const Slider = () => {
             height: "350px",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
             <span
               style={{
+                backgroundColor: "black",
                 fontSize: ["10px", "25px"],
-                // textAlign: ["center"],
-                color: "rgba(251, 252, 255, 0.966)",
+                textAlign: ["center", "left"],
+                color: "orange",
                 fontWight: ["none", "35px"],
                 textTransform: "uppercase",
-                width: ["200px", "500px"],
-                textAlign: ["center", "left"],
+                width: ["10px", "500px"],
+                marginLeft: ["50px", "1px"],
               }}
             >
-              Voulez-vous touver une maison sans vous casser la tête ?
+              Voulez-vous touver une maison ?
             </span>
             <a
               href="/"
@@ -68,19 +75,26 @@ const Slider = () => {
             height: "350px",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
             <span
               style={{
+                textAlign: ["center", "left"],
+                backgroundColor: "black",
                 fontSize: ["10px", "25px"],
-                textAlign: ["", "center"],
-                color: "rgb(230, 159, 27)",
-                fontWight: ["none", "35px"],
+                color: "white",
+                fontWeight: ["10px", "35px"],
                 textTransform: "uppercase",
-                width: ["200px", "500px"],
-                // textAlign: "left",
+                width: ["100px", "500px"],
+                mx: "auto",
               }}
             >
-              Bat&Prefab Leader du préfabrique en C.I
+              Bat&Prefab le Leader en C.I
             </span>
             <a
               href="/"
@@ -102,45 +116,6 @@ const Slider = () => {
         </div>
       </Slide>
     </div>
-
-    // <div>
-    //   <Slide easing="ease" {...proprietes}>
-    //     <div className="each-slide">
-    //       <div style={{ backgroundImage: `url(${img1})` }}>
-    //         <div className="containerLink">
-    //           <span
-    //             style={{
-    //               color: "orange",
-    //               backgroundColor: "white",
-    //               textTransform: "uppercase",
-    //             }}
-    //           >
-    //             Bat&Prefab Leader du préfabrique en C.I
-    //           </span>
-    //           <a href={"/"}>Contactez-nous</a>
-    //         </div>
-    //       </div>
-    //     </div>
-    //     <div className="each-slide">
-    //       <div style={{ backgroundImage: `url(${img2})` }}>
-    //         <div className="containerLink">
-    //           <span>Une référence dans le BTP en Afrique de l'Ouest.</span>
-    //           <a href={"/"}>Contactez-nous</a>
-    //         </div>
-    //       </div>
-    //     </div>
-    //     <div className="each-slide">
-    //       <div style={{ backgroundImage: `url(${img2})` }}>
-    //         <div className="containerLink">
-    //           <span>
-    //             Voulez-vous touver une maison sans vous casser la tête ?
-    //           </span>
-    //           <a href={"/"}>Contactez-nous</a>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </Slide>
-    // </div>
   )
 }
 
