@@ -32,3 +32,9 @@
   color: white;
   padding: 5px;
 }
+@media (max-width: "100%") {
+  .each-slide span {
+    font-size: 10px;
+    text-transform: none;
+  }
+}
