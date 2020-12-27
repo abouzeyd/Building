@@ -15,7 +15,7 @@ const proprietes = {
 const Slider = () => {
   return (
     <div sx={{ display: "flex", flexDirection: "column" }}>
-      <Slide easing="ease">
+      <Slide easing="ease" {...proprietes}>
         <div
           style={{
             backgroundImage: `url(${img2})`,
