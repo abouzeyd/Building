@@ -5,5 +5,9 @@ import logofb from "../images/logofb.svg"
 export default [
   { link: "", text: "+22549607307", img: tel },
   { link: "", text: "bat-prefab", img: logofb },
-  { link: "", text: "mohou@gmail.com", img: envelope },
+  {
+    link: "mailto:Batprefab@gmail.com",
+    text: "Batprefab@gmail.com",
+    img: envelope,
+  },
 ]
