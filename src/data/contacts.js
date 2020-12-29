@@ -3,7 +3,11 @@ import envelope from "../images/envelope.svg"
 import logofb from "../images/logofb.svg"
 
 export default [
-  { link: "", text: "+22549607307", img: tel },
+  {
+    link: "https://wa.me/+22549607307?text=urlencodedtext",
+    text: "+22549607307",
+    img: tel,
+  },
   { link: "", text: "bat-prefab", img: logofb },
   {
     link: "mailto:Batprefab@gmail.com",
