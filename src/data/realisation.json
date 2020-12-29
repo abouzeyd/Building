@@ -9,7 +9,7 @@
     "specialite": ["name construction de toilette"]
   },
   {
-    "title": "Toilette",
+    "title": "douche",
     "slug": "vintage-purple-tee",
     "description": "Keep it simple with this vintage purple tee.",
     "image": "/hamburg.jpg",
@@ -30,7 +30,7 @@
     "title": "Salle de sport",
     "slug": "purple-hat",
     "description": "Add more blazingly blazing speed to your wardrobe with this solid purple laundered chino twill hat.",
-    "image": "/hamburg.jpg",
+    "image": "/mountains.jpg",
     "voir": "voir plus",
     "id": 3,
     "specialite": ["name construction de toilette"]
