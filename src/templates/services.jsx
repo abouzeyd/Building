@@ -29,21 +29,37 @@ const services = ({ pageContext, data }) => {
 
 export default services
 
-export const query = graphql`
-  query RealisationQuery($slug: String!) {
-    realisationImages: allFile(
-      filter: {
-        sourceInstanceName: { eq: "realisationsImages" }
-        relativeDirectory: { eq: $slug }
-      }
-    ) {
-      nodes {
-        childImageSharp {
-          fluid(maxWidth: 400, maxHeight: 250) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query RealisationQuery($slug: String!) {
+//     realisationImages: allFile(
+//       filter: {
+//         sourceInstanceName: { eq: "realisationsImages" }
+//         relativeDirectory: { eq: $slug }
+//       }
+//     ) {
+//       nodes {
+//         childImageSharp {
+//           id
+//         }
+//         relativePath
+//       }
+//     }
+//   }
+
+//   # query RealisationQuery($slug: String!) {
+//   #   realisationImages: allFile(
+//   #     filter: {
+//   #       sourceInstanceName: { eq: "realisationsImages" }
+//   #       relativeDirectory: { eq: $slug }
+//   #     }
+//   #   ) {
+//   #     nodes {
+//   #       childImageSharp {
+//   #         fluid(maxWidth: 400, maxHeight: 250) {
+//   #           ...GatsbyImageSharpFluid
+//   #         }
+//   #       }
+//   #     }
+//   #   }
+//   # }
+// `
