@@ -54,7 +54,7 @@ const Header = ({ title, subtitle }) => {
         }}
       >
         <a
-          href="/"
+          href="https://wa.me/+22549607307?text=urlencodedtext"
           sx={{
             color: "white",
             textDecoration: "none",

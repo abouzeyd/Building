@@ -1,36 +1,40 @@
 [
   {
     "title": "Toilette",
-    "slug": "vintage-purple-tee",
+    "slug": "toilette",
     "description": "Keep it simple with this vintage purple tee.",
-    "image": "/hamburg.jpg",
+    "image": "hamburg.jpg",
+    "images": ["mountains.jpg", "hamburg.jpg", "gatsby-astronaut.png"],
     "voir": "voir plus",
     "id": 0,
     "specialite": ["name construction de toilette"]
   },
   {
     "title": "douche",
-    "slug": "vintage-purple-tee",
+    "slug": "douche",
     "description": "Keep it simple with this vintage purple tee.",
-    "image": "/hamburg.jpg",
+    "image": "hamburg.jpg",
+    "images": ["mountains.jpg", "hamburg.jpg", "gatsby-astronaut.png"],
     "voir": "voir plus",
     "id": 1,
     "specialite": ["name construction "]
   },
   {
     "title": "Bureau",
-    "slug": "space-socks",
+    "slug": "bureau",
     "description": "Get your feet into these spaced-out black socks with a Gatsby purple border and heel.",
-    "image": "/hamburg.jpg",
+    "image": "hamburg.jpg",
+    "images": ["mountains.jpg", "hamburg.jpg", "gatsby-astronaut.png"],
     "voir": "voir plus",
     "id": 2,
     "specialite": ["name construction de toilette"]
   },
   {
     "title": "Salle de sport",
-    "slug": "purple-hat",
+    "slug": "salle-de-sport",
     "description": "Add more blazingly blazing speed to your wardrobe with this solid purple laundered chino twill hat.",
-    "image": "/mountains.jpg",
+    "image": "mountains.jpg",
+    "images": ["mountains.jpg", "hamburg.jpg", "gatsby-astronaut.png"],
     "voir": "voir plus",
     "id": 3,
     "specialite": ["name construction de toilette"]

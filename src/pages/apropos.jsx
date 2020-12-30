@@ -8,20 +8,21 @@ const apropos = () => {
     <Layout>
       <Slider />
       <div sx={{}}>
+        <h3 sx={{ textAlign: "center", color: "orange" }}>Qui sommes Nous.</h3>
         <p
           sx={{ textAlign: ["center", "left"], width: [320, 700], mx: "auto" }}
         >
-          L’entreprise Firdaws prefab a été fondée en 2018, dynamique, née d'une
+          L’entreprise Batprefab a été fondée en 2018, dynamique, née d'une
           véritable passion pour la conception et la réalisation de bâtiments
           préfabriqués. Notre savoir-faire et nos compétences reposent sur un
           bureau d'études, nos compétences terrain et des personnels
           expérimentés et motivés. Quel que soit votre projet, l’entreprise
-          Firdaws prefab vous accompagne, identifie l'ensemble de vos besoins et
-          vous propose des bâtiments personnalisés répondant à votre attente.
-          <h5 sx={{ textAlign: "center", pt: 2 }}>Nos valeurs :</h5>
+          Batprefab vous accompagne, identifie l'ensemble de vos besoins et vous
+          propose des bâtiments personnalisés répondant à votre attente.
+          <h4 sx={{ textAlign: "center", pt: 2 }}>Nos valeurs :</h4>
           "Savoir-faire et Qualité, Engagement, Disponibilité, Responsabilité,
           Confiance et Proximité"
-          <h5 sx={{ textAlign: "center", pt: 1 }}>Nos domaines d'activités</h5>
+          <h4 sx={{ textAlign: "center", pt: 1 }}>Nos domaines d'activités</h4>
           <span sx={{ fontWeight: "bold", fontSize: 14 }}>
             {" "}
             Réalisation et conception de bâtiments préfabriqués à usage

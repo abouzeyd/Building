@@ -44,6 +44,20 @@ const Nav = () => {
                 </Link>
               )
             })}
+            <a
+              href="https://wa.me/+22549607307?text=urlencodedtext"
+              sx={{
+                fontSize: 17,
+                textDecoration: "none",
+                transition: "0.5s ease",
+                color: "blue",
+                "&:hover": {
+                  color: "orange",
+                },
+              }}
+            >
+              Appelez-Nous
+            </a>
           </ListItem>
         </List>
       </div>
@@ -75,6 +89,22 @@ const Nav = () => {
                 </Link>
               )
             })}
+            <a
+              href="https://wa.me/+22549607307?text=urlencodedtext"
+              sx={{
+                display: ["none", "", "", "block"],
+                ml: 62,
+                fontSize: 17,
+                transition: "0.5s ease",
+                color: "blue",
+                textDecoration: "none",
+                "&:hover": {
+                  color: "orange",
+                },
+              }}
+            >
+              Appelez-Nous
+            </a>
           </ListItem>
         </List>
       </div>
@@ -82,7 +112,7 @@ const Nav = () => {
   }
 
   return (
-    <div sx={{ bg: "white", display: "flex" }}>
+    <div sx={{ bg: "white", display: "flex", justifyContent: "space-around" }}>
       {/*  */}
 
       <img

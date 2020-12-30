@@ -94,7 +94,7 @@ const IndexPage = () => {
                     textAlign: "center",
                     color: "blue",
                     fontSize: 16,
-                    pt: 1,
+                    pt: 0,
                   }}
                 >
                   {item.title}

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import services from "../data/services.json"
+import realisation from "../data/realisation.json"
 import contact from "../data/contacts"
 
 const Footer = () => {
@@ -50,12 +50,12 @@ const Footer = () => {
             })}
           </div>
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
-            <h5 sx={{ fontSize: 18 }}>Services</h5>
-            {services.map(item => {
+            <h5 sx={{ fontSize: 18 }}>Réalisations</h5>
+            {realisation.map(item => {
               return (
                 <li sx={{ listStyle: "none", mb: 1 }}>
                   <a
-                    href={item.link}
+                    href={item.slug}
                     sx={{
                       textDecoration: "none",
                       color: "white",
