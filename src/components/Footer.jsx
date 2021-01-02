@@ -24,9 +24,10 @@ const Footer = () => {
         >
           <div sx={{ textAlign: ["center", "left"] }}>
             <h5 sx={{ fontSize: 18 }}>Contacts</h5>
-            {contact.map(item => {
+            {contact.map((item, i) => {
               return (
                 <li
+                  key={i.toString()}
                   sx={{
                     listStyle: "none",
                     display: "flex",
@@ -51,9 +52,9 @@ const Footer = () => {
           </div>
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
             <h5 sx={{ fontSize: 18 }}>Réalisations</h5>
-            {realisation.map(item => {
+            {realisation.map((item, i) => {
               return (
-                <li sx={{ listStyle: "none", mb: 1 }}>
+                <li key={i.toString()} sx={{ listStyle: "none", mb: 1 }}>
                   <a
                     href={item.slug}
                     sx={{
@@ -71,14 +72,10 @@ const Footer = () => {
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
             <h5 sx={{ fontSize: 18 }}>Localisation</h5>
             <div sx={{ fontSize: 12, width: 200 }}>
-              {[
-                {
-                  description:
-                    "Nous sommes situer à Marcory non loin du quartier du foyer des jeunes ",
-                },
-              ].map(localiser => {
-                return <span>{localiser.description}</span>
-              })}
+              <span>
+                Nous sommes situes à Marcory non loin du quartier du foyer des
+                jeunes
+              </span>
             </div>
           </div>
         </div>

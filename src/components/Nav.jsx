@@ -31,9 +31,10 @@ const Nav = () => {
               flexDirection: ["column", "row"],
             }}
           >
-            {nav.map(item => {
+            {nav.map((item, i) => {
               return (
                 <Link
+                  key={i.toString()}
                   to={item.link}
                   sx={{
                     textDecoration: "none",

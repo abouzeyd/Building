@@ -10,7 +10,7 @@ exports.createPages = ({ actions: { createPage } }) => {
   const serviceTemplate = require.resolve("./src/templates/services.jsx")
   services.forEach(item => {
     createPage({
-      path: `/${item.slug}`,
+      path: `/${item.slug}/`,
       component: serviceTemplate,
       context: {
         title: item.title,
