@@ -16,11 +16,11 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Header
         title="BAT-PREFAB N°1 du batiment en C.I."
-        subtitle="avec Nous vous aurez une maison en moin de 3 mois"
+        // subtitle="avec Nous vous aurez une maison en moin de 3 mois"
       />
       <div
         sx={{
-          maxWidth: ["100%", "90%", "90%", 1120],
+          maxWidth: ["100%", "90%", "90%", 1120,1125],
           textAlign: ["left", "center"],
         }}
         className="main"
@@ -40,7 +40,7 @@ const IndexPage = () => {
         <h2
           sx={{
             mx: "auto",
-            width: ["9em", "12em"],
+            width: ["9em", "12em","16em"],
             pt: [0, 12],
             mb: 0,
             textAlign: "center",
@@ -127,7 +127,7 @@ const IndexPage = () => {
           }}
         >
           <div sx={{ textAlign: ["center", "left"], ml: [0, 95] }}>
-            <h2 sx={{ width: [350, 300], color: "orange" }}>{text}</h2>
+            <h2 sx={{ width: [350, 350], color: "orange",ml:[25,0] }}>{text}</h2>
             <div sx={{ textAlign: ["left"] }}>
               <p sx={{ width: [300, 300], mx: "auto" }}>{paragraph}</p>
             </div>
@@ -137,7 +137,7 @@ const IndexPage = () => {
               display: "flex",
               flexDirection: ["column", "row"],
               alignItems: "center",
-              mr: [0, 57],
+              mr: [0, 57,21],
             }}
           >
             {blockTroisImage.map(item => {
@@ -151,22 +151,22 @@ const IndexPage = () => {
                 >
                   <img
                     src={item.image}
-                    sx={{ mr: [1, 25], width: [200, 150], pb: [0, 65] }}
+                    sx={{ mr: [1, 25], width: [200, 150,170], pb: [0, 65,150] }}
                   />
                 </div>
               )
             })}
           </div>
         </div>
-        <div sx={{ pt: [0, 5], pb: [1, 6] }}>
-          <div sx={{ bg: "gray" }}>
+        <div sx={{ pt: [0, 5], pb: [1, 6]}}>
+          <div sx={{ bg: "gray" ,width:"100%"}}>
             <div
               sx={{
                 display: "flex",
                 flexDirection: ["column", "row"],
                 alignItems: "center",
                 mx: "auto",
-                width: [200, 750],
+                width: [200,"100%"],
               }}
             >
               {blockTroisImage.map(item => {
@@ -177,7 +177,7 @@ const IndexPage = () => {
                       flexDirection: ["column"],
                     }}
                   >
-                    <div sx={{ ml: [0, 25] }}>
+                    <div sx={{ ml: [0, 25,100] }}>
                       <img
                         src={item.image}
                         sx={{ mr: [1, 30], width: [200, 200], pt: [10] }}
@@ -190,6 +190,8 @@ const IndexPage = () => {
                           color: "white",
                           textAlign: "center",
                           fontSize: 18,
+                          // news add
+                          width:[200,250],ml:[0,70]
                         }}
                       >
                         {item.title}
@@ -207,7 +209,7 @@ const IndexPage = () => {
                 sx={{
                   width: [300, 500],
                   mx: "auto",
-                  textAlign: "left",
+                  textAlign: ["center","left"],
                   color: "white",
                   pb: 5,
                 }}

@@ -67,7 +67,7 @@ const Nav = () => {
 
   const lister = () => {
     return (
-      <div sx={{ display: "flex", alignItems: "flex-end" }}>
+      <div sx={{ display: "flex", alignItems: "flex-end",flex:1,ml:[0,300] }}>
         <List>
           <ListItem>
             {nav.map(item => {
@@ -135,7 +135,7 @@ const Nav = () => {
         />
       </Link>
       {lister()}
-      <Drawer anchor="left" open={isDrawerOpen} onClose={false} sx={{}}>
+      <Drawer anchor="left" open={isDrawerOpen} onClose={false} >
         {list()}
       </Drawer>
     </div>
