@@ -41,7 +41,7 @@ const Footer = () => {
                     sx={{
                       textDecoration: "none",
                       color: "white",
-                      fontSize: "14px",
+                      fontSize: "17px",
                     }}
                   >
                     <span sx={{ mb: 0 }}>{item.text}</span>
@@ -60,7 +60,7 @@ const Footer = () => {
                     sx={{
                       textDecoration: "none",
                       color: "white",
-                      fontSize: "14px",
+                      fontSize: "17px",
                     }}
                   >
                     <span>{item.title}</span>
@@ -71,10 +71,9 @@ const Footer = () => {
           </div>
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
             <h5 sx={{ fontSize: 18 }}>Localisation</h5>
-            <div sx={{ fontSize: 12, width: 200 }}>
+            <div sx={{ fontSize: 17, width: 200 }}>
               <span>
-                Nous sommes situes à Marcory non loin du quartier du foyer des
-                jeunes
+                Nous sommes situes à Treichville avenue 21 Belle ville
               </span>
             </div>
           </div>
