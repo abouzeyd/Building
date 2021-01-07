@@ -5,7 +5,8 @@ import Layout from "../components/Layout"
 
 const services = ({ pageContext, data }) => {
   const { images, title } = pageContext
-  console.log(data)
+  const test=data.realisationImages.nodes[0]
+  console.log(test)
   return (
     <Layout>
       <p sx={{ textAlign: "center", pt: 55 }}>{title}</p>

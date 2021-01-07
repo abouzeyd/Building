@@ -4,7 +4,7 @@
     "slug": "toilette",
     "description": "Keep it simple with this vintage purple tee.",
     "image": "hamburg.jpg",
-    "images": ["mountains.jpg", "hamburg.jpg", "gatsby-astronaut.png"],
+    "images": ["mountains.jpg"],
     "voir": "voir plus",
     "id": 0,
     "specialite": ["name construction de toilette"]
@@ -14,7 +14,7 @@
     "slug": "douche",
     "description": "Keep it simple with this vintage purple tee.",
     "image": "hamburg.jpg",
-    "images": ["mountains.jpg", "hamburg.jpg", "gatsby-astronaut.png"],
+    "images": ["mountains.jpg", "hamburg.jpg"],
     "voir": "voir plus",
     "id": 1,
     "specialite": ["name construction "]
