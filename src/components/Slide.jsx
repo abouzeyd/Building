@@ -72,7 +72,7 @@ const Slider = () => {
             alignItems: "center",
             justifyContent: "center",
             backgroundSize: "cover",
-            height: "550px",
+            height: ["351","550px"],
           }}
         >
           <div

@@ -113,7 +113,7 @@ const Nav = () => {
   }
 
   return (
-    <div sx={{ bg: "white", display: "flex", justifyContent: "space-around" }}>
+    <div sx={{ bg: "white", display: "flex", justifyContent: "space-around", }}>
       {/*  */}
 
       <img
@@ -126,11 +126,11 @@ const Nav = () => {
         <img
           src={bat}
           sx={{
-            width: ["100px", "100px"],
+            width: ["100px","25%", "100px"],
             marginBottom: 0,
-            ml: ["10rem", 75],
+            ml: ["10rem","1rem", 75],
             pt: [10, 10],
-            // display: ["none", "", "", "block"],
+            //  display: ["none", "block", "", "block"],
           }}
         />
       </Link>

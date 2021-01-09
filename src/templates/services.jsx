@@ -2,11 +2,11 @@
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
+import Img from 'gatsby-image'
 
 const services = ({ pageContext, data }) => {
-  const { images, title } = pageContext
-  const test=data.realisationImages.nodes[0]
-  console.log(test)
+  const { title } = pageContext
+  const images=data.realisationImages.nodes
   return (
     <Layout>
       <p sx={{ textAlign: "center", pt: 55 }}>{title}</p>
@@ -21,7 +21,7 @@ const services = ({ pageContext, data }) => {
         }}
       >
         {images.map((image, i) => (
-          <img key={i} src={`/${image}`} />
+          <Img key={i} fluid={image.childImageSharp.fluid} />
         ))}
       </div>
     </Layout>

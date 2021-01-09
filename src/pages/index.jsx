@@ -167,7 +167,7 @@ const IndexPage = () => {
                 flexDirection: ["column", "row"],
                 alignItems: "center",
                 mx: "auto",
-                width: [200,"100%"],
+                width: ["200px","100%","35%","85%"],
               }}
             >
               {blockTroisImage.map(item => {

@@ -15,7 +15,6 @@ exports.createPages = ({ actions: { createPage } }) => {
       context: {
         title: item.title,
         description: item.description,
-        images: item.images,
         slug: item.slug,
       },
     })

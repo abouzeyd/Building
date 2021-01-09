@@ -27,6 +27,7 @@ const Header = ({ title, subtitle }) => {
         backgroundPosition: "center center",
         backgroundSize: "cover",
         p: [36, 12],
+        width:["5","120%","100%"],
       }}
     >
       <div
@@ -34,7 +35,8 @@ const Header = ({ title, subtitle }) => {
           textAlign: "center",
           pt: "12rem",
           color: "white",
-          width: "38rem",
+          // width: "38rem",
+         
           mx: "auto",
           maxWidth: ["100%", "90%", "90%", 1120],
         }}
