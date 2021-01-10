@@ -1,15 +1,17 @@
-import hamburg from "../images/hamburg.jpg"
+import prefabriquer from "../images/IMG-20180920-WA0005.jpg"
+import surRail from "../images/IMG-20200423-WA0030.jpg"
+import conteneur from "../images/20180131_115701.png"
 export default [
   {
-    image: hamburg,
+    image: prefabriquer,
     title: "Batiment Préfabriquer",
   },
   {
-    image: hamburg,
-    title: "Batiment Préfabriquer",
+    image: surRail,
+    title: "Batiment sur Rail",
   },
   {
-    image: hamburg,
-    title: "Batiment Préfabriquer",
+    image: conteneur,
+    title: "Conteneur Préfabriquer",
   },
 ]

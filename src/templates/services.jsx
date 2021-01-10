@@ -9,7 +9,7 @@ const services = ({ pageContext, data }) => {
   const images=data.realisationImages.nodes
   return (
     <Layout>
-      <p sx={{ textAlign: "center", pt: 55 }}>{title}</p>
+      <p sx={{ textAlign: "center", pt: 55,color:"orange" }}>{title}</p>
       <div
         sx={{
           display: "grid",
@@ -18,6 +18,8 @@ const services = ({ pageContext, data }) => {
           gridGap: "20px",
           width: [200],
           mx: "auto",
+          pt:[15,25],
+          pb:[15,25]
         }}
       >
         {images.map((image, i) => (
@@ -30,23 +32,18 @@ const services = ({ pageContext, data }) => {
 
 export default services
 
-export const query = graphql`
-  query RealisationQuery($slug: String!) {
-    realisationImages: allFile(
-      filter: {
-        sourceInstanceName: { eq: "realisationsImages" }
-        relativeDirectory: { eq: $slug }
-      }
-    ) {
-      nodes {
-        childImageSharp {
-          id
-          fluid(maxWidth: 400, maxHeight: 250) {
-            ...GatsbyImageSharpFluid
-          }
+export const query=graphql`
+query RealisationQuery($slug: String!) {
+  realisationImages:allFile(filter: {sourceInstanceName: {eq: "realisationsImages"}, relativeDirectory: {eq: $slug}}) {
+    nodes {
+      childImageSharp {
+        id
+        fluid(maxWidth: 200, maxHeight: 150) {
+          ...GatsbyImageSharpFluid
         }
-        relativePath
       }
+      relativePath
     }
   }
+}
 `
