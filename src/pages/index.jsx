@@ -132,9 +132,9 @@ const IndexPage = () => {
           }}
         >
           <div sx={{ textAlign: ["center", "left"], ml: [0, 95], }}>
-            <h2 sx={{ width: [355, 350], color: "orange",fontSize: [21,26],mx:"auto" }}>{text}</h2>
+            <h2 sx={{ width: [165, 350], color: "orange",fontSize: [14,26],mx:"auto" }}>{text}</h2>
             <div sx={{ textAlign: ["left"] }}>
-              <p sx={{ width: [210, 300], mx: "auto" }}>{paragraph}</p>
+              <p sx={{ width: [315, 300], mx: "auto",fontSize: [14,15] }}>{paragraph}</p>
             </div>
           </div>
           <div
