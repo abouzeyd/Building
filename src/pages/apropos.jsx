@@ -63,7 +63,7 @@ const apropos = () => {
         >
           {activity.map(item => {
             return (
-              <div>
+              <div sx={{ width: 111, mx: ["auto"] }}>
                 <div>
                   <img src={item.img} sx={{ width: [145, 555], mb: 0 }} />
                 </div>
