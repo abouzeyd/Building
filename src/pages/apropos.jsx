@@ -2,6 +2,8 @@
 import { jsx } from "theme-ui"
 import Slider from "../components/Slide"
 import Layout from "../components/Layout"
+import plomberie from "../images/plomberie.jpg"
+import activity from "../data/activite"
 
 const apropos = () => {
   return (
@@ -10,7 +12,12 @@ const apropos = () => {
       <div sx={{}}>
         <h3 sx={{ textAlign: "center", color: "orange" }}>Qui sommes Nous.</h3>
         <p
-          sx={{ textAlign: ["center", "left"], width: [320, 700], mx: "auto" }}
+          sx={{
+            textAlign: ["center", "left"],
+            width: [320, 700],
+            mx: "auto",
+            fontSize: 15,
+          }}
         >
           L’entreprise Batprefab a été fondée en 2018, dynamique, née d'une
           véritable passion pour la conception et la réalisation de bâtiments
@@ -45,6 +52,37 @@ const apropos = () => {
             Installations des sanitaires et de la climatisation.
           </span>
         </p>
+
+        <div
+          sx={{
+            display: "grid",
+            gridTemplateColumns: ["1fr", "repeat(3,200px)"],
+            justifyContent: "center",
+            gridGap: ["1px", "20px"],
+          }}
+        >
+          {activity.map(item => {
+            return (
+              <div>
+                <div>
+                  <img src={item.img} sx={{ width: [145, 555], mb: 0 }} />
+                </div>
+                <div
+                  sx={{
+                    textAlign: "center",
+                    pb: 55,
+                    width: 111,
+                    mx: ["none", "auto"],
+                  }}
+                >
+                  <span sx={{ width: [11, 25], color: "orange" }}>
+                    {item.title}
+                  </span>
+                </div>
+              </div>
+            )
+          })}
+        </div>
       </div>
     </Layout>
   )

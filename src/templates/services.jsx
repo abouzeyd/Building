@@ -18,8 +18,8 @@ const services = ({ pageContext, data }) => {
           gridGap: "20px",
           width: [200],
           mx: "auto",
-          pt:[15,25],
-          pb:[15,25]
+          pt:[15,35],
+          pb:[15,225]
         }}
       >
         {images.map((image, i) => (
