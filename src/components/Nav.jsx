@@ -4,8 +4,9 @@ import { Drawer, List, ListItem } from "@material-ui/core"
 import { useState } from "react"
 import { Link } from "gatsby"
 import hamburger from "../images/hamburger.svg"
-import bat from "../images/Bat.jpg"
+import bat from "../images/BATPREFAB.jpg"
 import nav from "../data/navigation.json"
+import Headroom from "react-headroom"
 
 const Nav = () => {
   const [isDrawerOpen, setDrawerOpen] = useState(false)
@@ -67,7 +68,9 @@ const Nav = () => {
 
   const lister = () => {
     return (
-      <div sx={{ display: "flex", alignItems: "flex-end",flex:1,ml:[0,300] }}>
+      <div
+        sx={{ display: "flex", alignItems: "flex-end", flex: 1, ml: [0, 300] }}
+      >
         <List>
           <ListItem>
             {nav.map(item => {
@@ -113,32 +116,36 @@ const Nav = () => {
   }
 
   return (
-    <div sx={{ bg: "white", display: "flex", justifyContent: "space-around", }}>
-      {/*  */}
+    <Headroom>
+      <div
+        sx={{ bg: "white", display: "flex", justifyContent: "space-around" }}
+      >
+        {/*  */}
 
-      <img
-        src={hamburger}
-        alt="menu"
-        onClick={toggleDrawer(true)}
-        sx={{ display: ["", "", "none"], pt: 2, ml: 2 }}
-      />
-      <Link to="/">
         <img
-          src={bat}
-          sx={{
-            width: ["100px","25%", "100px"],
-            marginBottom: 0,
-            ml: ["10rem","1rem", 75],
-            pt: [10, 10],
-            //  display: ["none", "block", "", "block"],
-          }}
+          src={hamburger}
+          alt="menu"
+          onClick={toggleDrawer(true)}
+          sx={{ display: ["", "", "none"], pt: 2, ml: 2 }}
         />
-      </Link>
-      {lister()}
-      <Drawer anchor="left" open={isDrawerOpen} onClose={false} >
-        {list()}
-      </Drawer>
-    </div>
+        <Link to="/">
+          <img
+            src={bat}
+            sx={{
+              width: ["100px", "25%", "100px"],
+              marginBottom: 0,
+              ml: ["10rem", "1rem", 75],
+              pt: [10, 10],
+              //  display: ["none", "block", "", "block"],
+            }}
+          />
+        </Link>
+        {lister()}
+        <Drawer anchor="left" open={isDrawerOpen} onClose={false}>
+          {list()}
+        </Drawer>
+      </div>
+    </Headroom>
   )
 }
 
