@@ -27,7 +27,7 @@ const Header = ({ title, subtitle }) => {
         backgroundPosition: "center center",
         backgroundSize: "cover",
         p: [36, 12],
-        width: ["5", "120%", "100%", "100%"],
+        width: ["100%", "120%", "100%", "100%"],
       }}
     >
       <div
