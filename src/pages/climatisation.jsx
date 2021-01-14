@@ -13,6 +13,8 @@ const climatisation = () => {
             pb: 266,
             color: "red",
             fontSize: [14, 16],
+            mx: "auto",
+            width: [300, 500],
           }}
         >
           <span sx={{}}>

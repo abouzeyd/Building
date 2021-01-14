@@ -13,6 +13,8 @@ const carrelage = () => {
             pb: 266,
             color: "red",
             fontSize: [14, 16],
+            mx: "auto",
+            width: [300, 500],
           }}
         >
           En cour de Traitement...
