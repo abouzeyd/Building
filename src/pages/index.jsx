@@ -21,7 +21,7 @@ const IndexPage = () => {
       <div
         sx={{
           // code in stande by
-          // maxWidth: ["100%", "90%", "90%", 1120,"1365px"],
+          // maxWidth: ["100%", "90%", "90%", 1120, "1365px"],
           textAlign: ["left", "center"],
         }}
         className="main"
@@ -33,7 +33,6 @@ const IndexPage = () => {
             pt: 57,
             width: ["10em", "20em"],
             mx: "auto",
-            
           }}
         >
           Avec nous c'est la qualiter à coup sur
@@ -41,7 +40,7 @@ const IndexPage = () => {
         <h3
           sx={{
             mx: "auto",
-            width: ["9em", "12em","16em"],
+            width: ["9em", "12em", "16em"],
             pt: [0, 12],
             mb: 0,
             textAlign: "center",
@@ -97,9 +96,8 @@ const IndexPage = () => {
                     color: "blue",
                     fontSize: 16,
                     pt: 0,
-                    width:"200px",
-                    mx:"auto"
-                    
+                    width: "200px",
+                    mx: "auto",
                   }}
                 >
                   {item.title}
@@ -131,10 +129,21 @@ const IndexPage = () => {
             maxWidth: 1000,
           }}
         >
-          <div sx={{ textAlign: ["center", "left"], ml: [0, 95], }}>
-            <h2 sx={{ width: [275, 350], color: "orange",fontSize: [20,26],mx:"auto" }}>{text}</h2>
+          <div sx={{ textAlign: ["center", "left"], ml: [0, 95] }}>
+            <h2
+              sx={{
+                width: [275, 350],
+                color: "orange",
+                fontSize: [20, 26],
+                mx: "auto",
+              }}
+            >
+              {text}
+            </h2>
             <div sx={{ textAlign: ["left"] }}>
-              <p sx={{ width: [315, 300], mx: "auto",fontSize: [14,15] }}>{paragraph}</p>
+              <p sx={{ width: [315, 300], mx: "auto", fontSize: [14, 15] }}>
+                {paragraph}
+              </p>
             </div>
           </div>
           <div
@@ -142,7 +151,7 @@ const IndexPage = () => {
               display: "flex",
               flexDirection: ["column", "row"],
               alignItems: "center",
-              mr: [0, 57,21],
+              mr: [0, 57, 21],
             }}
           >
             {blockTroisImage.map(item => {
@@ -156,22 +165,26 @@ const IndexPage = () => {
                 >
                   <img
                     src={item.image}
-                    sx={{ mr: [1, 25], width: [200, 150,170], pb: [0, 65,150] }}
+                    sx={{
+                      mr: [1, 25],
+                      width: [200, 150, 170],
+                      pb: [0, 65, 150],
+                    }}
                   />
                 </div>
               )
             })}
           </div>
         </div>
-        <div sx={{ pt: [0, 5], pb: [1, 6]}}>
-          <div sx={{ bg: "gray" ,width:"100%"}}>
+        <div sx={{ pt: [0, 5], pb: [1, 6] }}>
+          <div sx={{ bg: "gray", width: "100%" }}>
             <div
               sx={{
                 display: "flex",
                 flexDirection: ["column", "row"],
                 alignItems: "center",
                 mx: "auto",
-                width: ["200px","100%","35%","85%"],
+                width: ["200px", "100%", "35%", "85%"],
               }}
             >
               {blockTroisImage.map(item => {
@@ -182,7 +195,7 @@ const IndexPage = () => {
                       flexDirection: ["column"],
                     }}
                   >
-                    <div sx={{ ml: [0, 25,100] }}>
+                    <div sx={{ ml: [0, 25, 100] }}>
                       <img
                         src={item.image}
                         sx={{ mr: [1, 30], width: [200, 200], pt: [10] }}
@@ -196,7 +209,9 @@ const IndexPage = () => {
                           textAlign: "center",
                           fontSize: 18,
                           // news add
-                          width:[200,250],ml:[0,70], fontSize: [12,16],
+                          width: [200, 250],
+                          ml: [0, 70],
+                          fontSize: [12, 16],
                         }}
                       >
                         {item.title}
@@ -207,17 +222,24 @@ const IndexPage = () => {
               })}
             </div>
             <div sx={{ textAlign: "center", bg: "gray" }}>
-              <h3 sx={{ width: [300, 600], mx: "auto", color: "orange", fontSize: [12,21] }}>
+              <h3
+                sx={{
+                  width: [300, 600],
+                  mx: "auto",
+                  color: "orange",
+                  fontSize: [12, 21],
+                }}
+              >
                 “Solution de bâtiment préfabriqué clé en main.”
               </h3>
               <p
                 sx={{
                   width: [300, 500],
                   mx: "auto",
-                  textAlign: ["center","left"],
+                  textAlign: ["center", "left"],
                   color: "white",
                   pb: 5,
-                  fontSize: [12,16]
+                  fontSize: [12, 16],
                 }}
               >
                 "Solutions prêtes, rapides, adaptées à toute condition

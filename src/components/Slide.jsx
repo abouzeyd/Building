@@ -2,8 +2,8 @@ import React from "react"
 import { Slide } from "react-slideshow-image"
 import "../asset/slide.css"
 import "react-slideshow-image/dist/styles.css"
-import img1 from "../images/hamburg.jpg"
-import img2 from "../images/mountains.jpg"
+import img1 from "../images/apropos/echaffaudage.jpeg"
+import img2 from "../images/apropos/IMG-20181104-WA0022.jpg"
 
 const proprietes = {
   duration: 9000,

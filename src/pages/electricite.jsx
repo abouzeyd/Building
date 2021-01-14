@@ -1,0 +1,25 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
+import Layout from "../components/Layout"
+
+const electricite = () => {
+  return (
+    <Layout>
+      <div>
+        <div
+          sx={{
+            pt: 190,
+            textAlign: "center",
+            pb: 266,
+            color: "red",
+            fontSize: [14, 16],
+          }}
+        >
+          En cour de Traitement...
+        </div>
+      </div>
+    </Layout>
+  )
+}
+
+export default electricite

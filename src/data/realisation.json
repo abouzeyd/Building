@@ -26,5 +26,12 @@
     "description": "Construction sur Rail",
     "image": "IMG-20200423-WA0030.jpg",
     "voir": "voir plus"
+  },
+  {
+    "title": "Echafaudage",
+    "slug": "echafaudage",
+    "description": "Construction d'echafaudage",
+    "image": "echaffaudage.jpeg",
+    "voir": "voir plus"
   }
 ]

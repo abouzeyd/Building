@@ -2,14 +2,15 @@
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-import Img from 'gatsby-image'
+import Img from "gatsby-image"
 
 const services = ({ pageContext, data }) => {
   const { title } = pageContext
-  const images=data.realisationImages.nodes
+  const images = data.realisationImages.nodes
   return (
     <Layout>
-      <p sx={{ textAlign: "center", pt: 55,color:"orange" }}>{title}</p>
+      <p sx={{ textAlign: "center", pt: 55, color: "orange" }}>{title}</p>
+
       <div
         sx={{
           display: "grid",
@@ -18,8 +19,8 @@ const services = ({ pageContext, data }) => {
           gridGap: "20px",
           width: [200],
           mx: "auto",
-          pt:[15,35],
-          pb:[15,225]
+          pt: [15, 35],
+          pb: [15, 225],
         }}
       >
         {images.map((image, i) => (
@@ -32,18 +33,23 @@ const services = ({ pageContext, data }) => {
 
 export default services
 
-export const query=graphql`
-query RealisationQuery($slug: String!) {
-  realisationImages:allFile(filter: {sourceInstanceName: {eq: "realisationsImages"}, relativeDirectory: {eq: $slug}}) {
-    nodes {
-      childImageSharp {
-        id
-        fluid(maxWidth: 200, maxHeight: 150) {
-          ...GatsbyImageSharpFluid
-        }
+export const query = graphql`
+  query RealisationQuery($slug: String!) {
+    realisationImages: allFile(
+      filter: {
+        sourceInstanceName: { eq: "realisationsImages" }
+        relativeDirectory: { eq: $slug }
       }
-      relativePath
+    ) {
+      nodes {
+        childImageSharp {
+          id
+          fluid(maxWidth: 200, maxHeight: 150) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+        relativePath
+      }
     }
   }
-}
 `

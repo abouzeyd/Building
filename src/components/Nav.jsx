@@ -46,20 +46,6 @@ const Nav = () => {
                 </Link>
               )
             })}
-            <a
-              href="https://wa.me/+22549607307?text=urlencodedtext"
-              sx={{
-                fontSize: 17,
-                textDecoration: "none",
-                transition: "0.5s ease",
-                color: "blue",
-                "&:hover": {
-                  color: "orange",
-                },
-              }}
-            >
-              Appelez-Nous
-            </a>
           </ListItem>
         </List>
       </div>
@@ -69,7 +55,7 @@ const Nav = () => {
   const lister = () => {
     return (
       <div
-        sx={{ display: "flex", alignItems: "flex-end", flex: 1, ml: [0, 300] }}
+        sx={{ display: "flex", alignItems: "flex-end", flex: 1, ml: [0, 100] }}
       >
         <List>
           <ListItem>
@@ -93,22 +79,6 @@ const Nav = () => {
                 </Link>
               )
             })}
-            <a
-              href="https://wa.me/+22549607307?text=urlencodedtext"
-              sx={{
-                display: ["none", "", "", "block"],
-                ml: 62,
-                fontSize: 17,
-                transition: "0.5s ease",
-                color: "blue",
-                textDecoration: "none",
-                "&:hover": {
-                  color: "orange",
-                },
-              }}
-            >
-              Appelez-Nous
-            </a>
           </ListItem>
         </List>
       </div>
