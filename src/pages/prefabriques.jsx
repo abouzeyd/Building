@@ -8,9 +8,9 @@ const prefabrique = () => {
       <div>
         <div
           sx={{
-            pt: 190,
+            pt: [55, 190],
             textAlign: "center",
-            pb: 266,
+            pb: [55, 266],
             color: "black",
             mx: "auto",
             width: [300, 500],
