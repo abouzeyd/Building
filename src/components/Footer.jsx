@@ -5,7 +5,9 @@ import contact from "../data/contacts"
 
 const Footer = () => {
   return (
-    <div sx={{ backgroundColor: "blue", pt: 25,width:["102%","120%","100%"]}}>
+    <div
+      sx={{ backgroundColor: "blue", pt: 25, width: ["102%", "120%", "100%"] }}
+    >
       <div
         sx={{
           alignItems: ["center", "", "", "left"],
@@ -23,7 +25,7 @@ const Footer = () => {
           }}
         >
           <div sx={{ textAlign: ["center", "left"] }}>
-            <h5 sx={{ fontSize: [15,18] }}>Contacts</h5>
+            <h5 sx={{ fontSize: [15, 18] }}>Contacts</h5>
             {contact.map((item, i) => {
               return (
                 <li
@@ -41,7 +43,7 @@ const Footer = () => {
                     sx={{
                       textDecoration: "none",
                       color: "white",
-                      fontSize: [12,14],
+                      fontSize: [12, 14],
                     }}
                   >
                     <span sx={{ mb: 0 }}>{item.text}</span>
@@ -51,7 +53,7 @@ const Footer = () => {
             })}
           </div>
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
-            <h5 sx={{ fontSize: [15,18] }}>Réalisations</h5>
+            <h5 sx={{ fontSize: [15, 18] }}>Réalisations</h5>
             {realisation.map((item, i) => {
               return (
                 <li key={i.toString()} sx={{ listStyle: "none", mb: 1 }}>
@@ -60,7 +62,7 @@ const Footer = () => {
                     sx={{
                       textDecoration: "none",
                       color: "white",
-                      fontSize: [12,14],
+                      fontSize: [12, 14],
                     }}
                   >
                     <span>{item.title}</span>
@@ -70,11 +72,9 @@ const Footer = () => {
             })}
           </div>
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
-            <h5 sx={{ fontSize: [15,18] }}>Localisation</h5>
-            <div sx={{ fontSize: [12,14], width: 200 }}>
-              <span>
-                Nous sommes situes à Treichville avenue 21 Belle ville
-              </span>
+            <h5 sx={{ fontSize: [15, 18] }}>Localisation</h5>
+            <div sx={{ fontSize: [12, 14], width: 200 }}>
+              <span>Nous sommes situé à Treichville avenue 21 belle ville</span>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ const prefabrique = () => {
             pt: 190,
             textAlign: "center",
             pb: 266,
-            color: "red",
+            color: "black",
             mx: "auto",
             width: [300, 500],
             fontSize: [14, 16],
@@ -19,12 +19,19 @@ const prefabrique = () => {
         >
           <span sx={{}}>
             {" "}
-            Bâtiments Administratifs,Bâtiments Sanitaires,Bâtiments
-            d’enseignement,Bâtiments Dortoirs,Bâtiments pour installation
-            d’urgence,Bâtiments Réfectoires,Bâtiments W-C et Douches,Centres de
-            Loisir Cabines Guérites Maisons Kiosques ,Conteneurs
-            Maritimes,Insonorisation de Bâtiments,Partitionnements de
-            Bâtiments,Aménagements de Bâtiments
+            Bâtiments Administratifs,
+            <br />
+            Bâtiments Sanitaires, <br />
+            Bâtiments d’enseignement, <br />
+            Bâtiments Dortoirs, <br />
+            Bâtiments pour installation d’urgence, <br />
+            Bâtiments Réfectoires, <br />
+            Bâtiments W-C et Douches, <br />
+            Centres de Loisir Cabines Guérites Maisons Kiosques , <br />
+            Conteneurs Maritimes, <br />
+            Insonorisation de Bâtiments, <br />
+            Partitionnements de Bâtiments, <br />
+            Aménagements de Bâtiments
           </span>
         </div>
       </div>

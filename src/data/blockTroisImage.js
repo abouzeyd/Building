@@ -4,14 +4,14 @@ import conteneur from "../images/20180131_115701.png"
 export default [
   {
     image: prefabriquer,
-    title: "Batiment Préfabriquer",
+    title: "Batiment préfabriqué",
   },
   {
     image: surRail,
-    title: "Batiment sur Rail",
+    title: "Batiment sur plateforme",
   },
   {
     image: conteneur,
-    title: "Conteneur Préfabriquer",
+    title: "Conteneur préfabriqué",
   },
 ]

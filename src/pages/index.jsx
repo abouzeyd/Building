@@ -35,7 +35,7 @@ const IndexPage = () => {
             mx: "auto",
           }}
         >
-          Avec nous c'est la qualiter à coup sur
+          Avec nous c'est la qualité à coup sur
         </h2>
         <h3
           sx={{

@@ -1,15 +1,15 @@
 [
   {
-    "title": "Conteneur prefabriquer",
+    "title": "Conteneur préfabriqué",
     "slug": "conteneur-prefabriquer",
-    "description": "Construction de conteneur prefabriquer",
+    "description": "Construction de conteneur préfabriqué",
     "image": "20180131_115701.png",
     "voir": "voir plus"
   },
   {
-    "title": "Maison prefabrique",
+    "title": "Maison préfabriqué",
     "slug": "maison-prefabrique",
-    "description": "Construction de Maison prefabriquer",
+    "description": "Construction de Maison préfabriqué",
     "image": "IMG-20180920-WA0005.jpg",
     "voir": "voir plus"
   },
@@ -23,14 +23,14 @@
   {
     "title": "Construction sur plateforme",
     "slug": "prefabrique-construction-sur-rail",
-    "description": "Construction sur Rail",
+    "description": "Construction sur plateforme",
     "image": "IMG-20200423-WA0030.jpg",
     "voir": "voir plus"
   },
   {
-    "title": "Echafaudage",
-    "slug": "echafaudage",
-    "description": "Construction d'echafaudage",
+    "title": "Charpente",
+    "slug": "Charpente",
+    "description": "Construction de Charpente",
     "image": "echaffaudage.jpeg",
     "voir": "voir plus"
   }
