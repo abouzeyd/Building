@@ -11,14 +11,15 @@ const soudure = () => {
             pt: 190,
             textAlign: "center",
             pb: 266,
-            color: "red",
+            color: "  <br />",
             fontSize: [14, 16],
             mx: "auto",
             width: [300, 500],
           }}
         >
           <span sx={{}}>
-            portes métalliques, portes blindées ,charpentes métalliques
+            portes métalliques, <br /> portes blindées , <br />
+            charpentes métalliques
           </span>
         </div>
       </div>

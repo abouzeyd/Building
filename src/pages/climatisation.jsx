@@ -11,14 +11,15 @@ const climatisation = () => {
             pt: 190,
             textAlign: "center",
             pb: 266,
-            color: "red",
+            color: "black",
             fontSize: [14, 16],
             mx: "auto",
             width: [300, 500],
           }}
         >
           <span sx={{}}>
-            l'installation de climatiseur ,réparation de climatiseur
+            l'installation de climatiseur , <br />
+            réparation de climatiseur
           </span>
         </div>
       </div>

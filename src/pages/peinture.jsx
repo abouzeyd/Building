@@ -11,7 +11,7 @@ const peinture = () => {
             pt: 190,
             textAlign: "center",
             pb: 266,
-            color: "red",
+            color: "black",
             fontSize: [14, 16],
             mx: "auto",
             width: [300, 500],
