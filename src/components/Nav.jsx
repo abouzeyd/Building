@@ -59,7 +59,7 @@ const Nav = () => {
           display: "flex",
           alignItems: "flex-end",
           flex: 1,
-          ml: [0, 0, -50, 70],
+          ml: [0, 0, 0, 100],
         }}
       >
         <List>
