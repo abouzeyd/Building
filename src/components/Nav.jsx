@@ -59,7 +59,7 @@ const Nav = () => {
           display: "flex",
           alignItems: "flex-end",
           flex: 1,
-          ml: [0, 0, 0, 100],
+          ml: [0, 0, 100, 100],
         }}
       >
         <List>
@@ -70,7 +70,7 @@ const Nav = () => {
                   to={item.link}
                   sx={{
                     textDecoration: "none",
-                    ml: 62,
+                    ml: [62, 55, 26, 62],
                     display: ["none", "block", "block", "block"],
 
                     fontSize: 17,
