@@ -55,7 +55,12 @@ const Nav = () => {
   const lister = () => {
     return (
       <div
-        sx={{ display: "flex", alignItems: "flex-end", flex: 1, ml: [0, 100] }}
+        sx={{
+          display: "flex",
+          alignItems: "flex-end",
+          flex: 1,
+          ml: [0, 0, 0, 100],
+        }}
       >
         <List>
           <ListItem>
@@ -66,7 +71,8 @@ const Nav = () => {
                   sx={{
                     textDecoration: "none",
                     ml: 62,
-                    display: ["none", "", "", "block"],
+                    display: ["none", "block", "block", "block"],
+
                     fontSize: 17,
                     transition: "0.5s ease",
                     color: "blue",
