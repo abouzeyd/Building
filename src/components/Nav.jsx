@@ -58,8 +58,8 @@ const Nav = () => {
         sx={{
           display: "flex",
           alignItems: "flex-end",
-          // flex: 1,
-          mr: [0, 0, 0, 20],
+          flex: 1,
+          ml: [0, 0, -50, 70],
         }}
       >
         <List>
