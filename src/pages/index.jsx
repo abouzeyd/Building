@@ -167,7 +167,7 @@ const IndexPage = () => {
                     src={item.image}
                     sx={{
                       mr: [1, 25],
-                      width: [200, 150, 170],
+                      width: [200, 120, 140, 170],
                       pb: [0, 65, 150],
                     }}
                   />
@@ -183,8 +183,11 @@ const IndexPage = () => {
                 display: "flex",
                 flexDirection: ["column", "row"],
                 alignItems: "center",
-                mx: "auto",
-                width: ["200px", "100%", "35%", "85%"],
+                // mx: "auto",
+                // width: ["200px", "100%", "35%", "85%"],
+
+                mr: 65,
+                ml: [65, 0, 0, 120],
               }}
             >
               {blockTroisImage.map(item => {
