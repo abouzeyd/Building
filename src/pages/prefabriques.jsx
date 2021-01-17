@@ -15,6 +15,7 @@ const prefabrique = () => {
             mx: "auto",
             width: [300, 500],
             fontSize: [14, 16],
+            fontWeight: "bold",
           }}
         >
           <span sx={{}}>

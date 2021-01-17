@@ -15,6 +15,7 @@ const peinture = () => {
             fontSize: [14, 16],
             mx: "auto",
             width: [300, 500],
+            fontWeight: "bold",
           }}
         >
           En cour de Traitement...
