@@ -2,7 +2,7 @@ import React from "react"
 import { Slide } from "react-slideshow-image"
 import "../asset/slide.css"
 import "react-slideshow-image/dist/styles.css"
-import img1 from "../images/apropos/echaffaudage.jpeg"
+import img1 from "../images/apropos/charpente.jpeg"
 import img2 from "../images/apropos/IMG-20181104-WA0022.jpg"
 
 const proprietes = {
