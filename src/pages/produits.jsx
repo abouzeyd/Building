@@ -13,8 +13,8 @@ const produits = () => {
             display: "flex",
             flexDirection: "column",
             textAlign: "center",
-            pt: 115,
-            pb: 204,
+            pt: [12, 155, 155, 115],
+            pb: [12, 204, 255, 204],
           }}
         >
           {products.map(item => {
@@ -25,6 +25,8 @@ const produits = () => {
                   textDecoration: "none",
                   fontSize: [14, 19],
                   minHeight: 45,
+                  fontWeight: "bold",
+                  color: "black",
                 }}
               >
                 {item.title}
