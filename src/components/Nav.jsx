@@ -101,6 +101,7 @@ const Nav = () => {
         <img
           src={hamburger}
           alt="menu"
+          width="25px"
           onClick={toggleDrawer(true)}
           sx={{ display: ["", "", "none"], pt: 2, ml: 2 }}
         />
