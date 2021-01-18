@@ -57,8 +57,8 @@ const Footer = () => {
             {realisation.map((item, i) => {
               return (
                 <li key={i.toString()} sx={{ listStyle: "none", mb: 1 }}>
-                  <a
-                    href={item.slug}
+                  <span
+                    // href={item.slug}
                     sx={{
                       textDecoration: "none",
                       color: "white",
@@ -66,7 +66,7 @@ const Footer = () => {
                     }}
                   >
                     <span>{item.title}</span>
-                  </a>
+                  </span>
                 </li>
               )
             })}
