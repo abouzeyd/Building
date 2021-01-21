@@ -9,7 +9,7 @@ const climatisation = () => {
         <div
           sx={{
             pt: 190,
-            textAlign: "center",
+            textAlign: ["center", "left"],
             pb: 266,
             color: "black",
             fontSize: [14, 16],
@@ -19,8 +19,7 @@ const climatisation = () => {
           }}
         >
           <span sx={{}}>
-            l'installation de climatiseur , <br />
-            réparation de climatiseur
+            . l'installation de climatiseur <br />. réparation de climatiseur
           </span>
         </div>
       </div>

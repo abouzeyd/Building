@@ -9,7 +9,11 @@ const services = ({ pageContext, data }) => {
   const images = data.realisationImages.nodes
   return (
     <Layout>
-      <p sx={{ textAlign: "center", pt: 55, color: "orange" }}>{title}</p>
+      <p
+        sx={{ textAlign: "center", pt: 55, color: "black", fontWeight: "bold" }}
+      >
+        {title}
+      </p>
 
       <div
         sx={{

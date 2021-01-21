@@ -14,7 +14,7 @@ export default [
     text: "89 85 52 51",
     img: tel,
   },
-  { link: "", text: "bat-prefab", img: logofb },
+  { link: "", text: "bat&prefab", img: logofb },
   {
     link: "mailto:Batprefab@gmail.com",
     text: "Batprefab@gmail.com",

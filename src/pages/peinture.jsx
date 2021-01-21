@@ -18,7 +18,7 @@ const peinture = () => {
             fontWeight: "bold",
           }}
         >
-          En cour de Traitement...
+          En cours de Traitement...
         </div>
       </div>
     </Layout>

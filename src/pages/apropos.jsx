@@ -19,13 +19,13 @@ const apropos = () => {
             fontSize: 15,
           }}
         >
-          L’entreprise Batprefab a été fondée en 2018, dynamique, née d'une
+          L’entreprise Bat&prefab a été fondée en 2018, dynamique, née d'une
           véritable passion pour la conception et la réalisation de bâtiments
           préfabriqués. Notre savoir-faire et nos compétences reposent sur un
           bureau d'études, nos compétences terrain et des personnels
           expérimentés et motivés. Quel que soit votre projet, l’entreprise
-          Batprefab vous accompagne, identifie l'ensemble de vos besoins et vous
-          propose des bâtiments personnalisés répondant à votre attente.
+          Bat&prefab vous accompagne, identifie l'ensemble de vos besoins et
+          vous propose des bâtiments personnalisés répondant à votre attente.
           <h4 sx={{ textAlign: "center", pt: 2 }}>Nos valeurs :</h4>
           "Savoir-faire et Qualité, Engagement, Disponibilité, Responsabilité,
           Confiance et Proximité"
@@ -36,16 +36,17 @@ const apropos = () => {
             d’habitations, de bureaux, de bases vie, de toilettes, de kiosques…
           </span>{" "}
           <span sx={{ fontWeight: "bold", fontSize: 14 }}>
-            Rénovation, Réhabilitation.
+            Rénovation, Réhabilitation ,
           </span>{" "}
           <span sx={{ fontWeight: "bold", fontSize: 14 }}>
-            Importation de modèles européens.
+            Importation de modèles européens,
           </span>
           <span sx={{ fontWeight: "bold", fontSize: 14 }}>
-            Réalisation d’installations électriques.{" "}
+            {" "}
+            Réalisation d’installations électriques,{" "}
           </span>
           <span sx={{ fontWeight: "bold", fontSize: 14 }}>
-            Insonorisation des salles Assemblage et démontage.
+            Insonorisation des salles, Assemblage et démontage,
           </span>
           <span sx={{ fontWeight: "bold", fontSize: 14 }}>
             {" "}

@@ -8,9 +8,9 @@ import blockTroisImage from "../data/blockTroisImage"
 import Header from "../components/Header"
 
 const IndexPage = () => {
-  const text = "LES GRANDS TRAVAUX COMMENCE AVEC NOUS"
+  const text = "LES GRANDS TRAVAUX COMMENCENT AVEC NOUS"
   const paragraph =
-    "BAT-PREFAB vous offre des espaces de vie super pratiques, des logements préfabriqués, des modules urbains, des produits finis blindés et innovants en offrant des solutions rapides, pratiques, adaptées à toute condition climatique, où tous les processus sont réalisés clé en main avec ses systèmes de préfabriqués, de conteneurs, d’acier léger, d’acier de construction pour vos projets de grande taille ou de taille standard développés pour divers besoins."
+    "BAT&PREFAB vous offre des espaces de vie super pratiques, des logements préfabriqués, des modules urbains, des produits finis blindés et innovants en offrant des solutions rapides, pratiques, adaptées à toute condition climatique, où tous les processus sont réalisés clé en main avec ses systèmes de préfabriqués, de conteneurs, d’acier léger, d’acier de construction pour vos projets de grande taille ou de taille standard développés pour divers besoins."
   return (
     <Layout>
       <SEO title="Home" />
@@ -35,7 +35,7 @@ const IndexPage = () => {
             mx: "auto",
           }}
         >
-          Avec nous c'est la qualité à coup sur
+          Avec nous c'est la qualité à coup sûr
         </h2>
         <h3
           sx={{

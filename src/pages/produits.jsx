@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-
+import Tippy from "@tippyjs/react"
 import products from "../data/product.json"
 import Layout from "../components/Layout"
 

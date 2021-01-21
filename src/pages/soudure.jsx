@@ -9,7 +9,7 @@ const soudure = () => {
         <div
           sx={{
             pt: 190,
-            textAlign: "center",
+            textAlign: ["center", "left"],
             pb: 266,
             color: "  <br />",
             fontSize: [14, 16],
@@ -19,8 +19,11 @@ const soudure = () => {
           }}
         >
           <span sx={{}}>
-            portes métalliques, <br /> portes blindées , <br />
-            charpentes métalliques
+            . portes métalliques <br />. portes blindées <br />. charpentes
+            métalliques
+            <br />. antivol
+            <br />. escalier
+            <br />. mezzanine
           </span>
         </div>
       </div>

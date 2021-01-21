@@ -1,6 +1,6 @@
 import plomberie from "../images/plomberie.jpg"
 import electricite from "../images/electricite.jpg"
-import chapanterie from "../images/chapanterie.jpg"
+import chapenterie from "../images/chapanterie.jpg"
 
 export default [
   {
@@ -12,7 +12,7 @@ export default [
     title: "Electricite",
   },
   {
-    img: chapanterie,
-    title: "Chapanterie",
+    img: chapenterie,
+    title: "Chapenterie",
   },
 ]

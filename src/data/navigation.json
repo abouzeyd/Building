@@ -1,7 +1,7 @@
 [
-  { "title": "Qui sommes nous", "link": "/apropos/" },
+  { "title": "Qui sommes-nous ", "link": "/apropos/" },
   { "title": "Nos produits", "link": "/produits/" },
-  { "title": "Nos Realisation", "link": "/" },
+  { "title": "Nos Réalisations", "link": "/" },
   { "title": "Catalogue", "link": "/catalogue/" },
   { "title": "Contacts", "link": "/contacts/" }
 ]
