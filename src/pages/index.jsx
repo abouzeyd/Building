@@ -6,6 +6,7 @@ import SEO from "../components/SEO"
 import realisation from "../data/realisation.json"
 import blockTroisImage from "../data/blockTroisImage"
 import Header from "../components/Header"
+import Helmet from "react-helmet"
 
 const IndexPage = () => {
   const text = "LES GRANDS TRAVAUX COMMENCENT AVEC NOUS"
@@ -14,6 +15,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+      <Helmet></Helmet>
       <Header
         title="BAT&PREFAB N°1 du bâtiment en C.I."
         // subtitle="avec Nous vous aurez une maison en moin de 3 mois"

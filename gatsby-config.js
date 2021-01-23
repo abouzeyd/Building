@@ -3,6 +3,8 @@ module.exports = {
     title: `BAT&PREFAB`,
     description: `Site Immobilier.`,
     author: `@abouzayd`,
+    keywords: "maison prefabrique",
+    url: "https://www.batprefab.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
