@@ -28,7 +28,7 @@ const services = ({ pageContext, data }) => {
         }}
       >
         {images.map((image, i) => (
-          <Img key={i} fluid={image.childImageSharp.fluid} />
+          <Img key={i} fluid={image.childImageSharp.fluid} alt="imageData" />
         ))}
       </div>
     </Layout>

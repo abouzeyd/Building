@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import realisation from "../data/realisation.json"
@@ -19,6 +18,10 @@ const IndexPage = () => {
       <Header
         title="BAT&PREFAB N°1 du bâtiment en C.I."
         // subtitle="avec Nous vous aurez une maison en moin de 3 mois"
+      />
+      <meta
+        name="google-site-verification"
+        content="6TMmoI5CeA65Ph2ASOjPFbxRmlvE4uqboSyZUEmC8cY"
       />
       <div
         sx={{
@@ -91,6 +94,7 @@ const IndexPage = () => {
                   src={item.image}
                   width="200px"
                   sx={{ ml: [25, 61], mb: 1, pt: [0, 1] }}
+                  alt="imagesPrincipal"
                 />
                 <span
                   sx={{
@@ -172,6 +176,7 @@ const IndexPage = () => {
                       width: [200, 120, 140, 170],
                       pb: [0, 65, 150],
                     }}
+                    alt="blocTroisImage"
                   />
                 </div>
               )
@@ -204,6 +209,7 @@ const IndexPage = () => {
                       <img
                         src={item.image}
                         sx={{ mr: [1, 30], width: [200, 200], pt: [10] }}
+                        alt="bloc"
                       />
                     </div>
 

@@ -3,7 +3,7 @@ module.exports = {
     title: `BAT&PREFAB`,
     description: `Site Immobilier.`,
     author: `@abouzayd`,
-    keywords: "maison prefabrique",
+    keywords: "batiment,batiment,batiment,batiment,batiment,prefabrique",
     url: "https://www.batprefab.com",
   },
   plugins: [

@@ -2,7 +2,6 @@
 import { jsx } from "theme-ui"
 import Slider from "../components/Slide"
 import Layout from "../components/Layout"
-import plomberie from "../images/plomberie.jpg"
 import activity from "../data/activite"
 
 const apropos = () => {
@@ -66,7 +65,11 @@ const apropos = () => {
             return (
               <div sx={{ width: 111, mx: ["auto"] }}>
                 <div>
-                  <img src={item.img} sx={{ width: [145, 555], mb: 0 }} />
+                  <img
+                    src={item.img}
+                    sx={{ width: [145, 555], mb: 0 }}
+                    alt="imageMetier"
+                  />
                 </div>
                 <div
                   sx={{
