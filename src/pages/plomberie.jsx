@@ -9,7 +9,7 @@ const plomberie = () => {
         <div
           sx={{
             pt: 190,
-            textAlign: "center",
+
             pb: 266,
             color: "black",
             fontSize: [14, 16],
@@ -18,7 +18,11 @@ const plomberie = () => {
             fontWeight: "bold",
           }}
         >
-          En cours de Traitement...
+          <span sx={{ textAlign: "left" }}>
+            ● installation des équipements sanitaires
+            <br />● réparation des équipements sanitaires <br />● installation
+            et entretien des canalisations d'eaux et d'eaux d'évacuation
+          </span>
         </div>
       </div>
     </Layout>

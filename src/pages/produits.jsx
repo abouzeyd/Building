@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import Tippy from "@tippyjs/react"
+
 import products from "../data/product.json"
 import Layout from "../components/Layout"
 
@@ -13,6 +13,8 @@ const produits = () => {
             display: "flex",
             flexDirection: "column",
             textAlign: "center",
+            mx: "auto",
+            width: 135,
             pt: [12, 155, 155, 115],
             pb: [12, 204, 255, 204],
           }}

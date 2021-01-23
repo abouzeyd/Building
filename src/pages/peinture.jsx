@@ -9,7 +9,6 @@ const peinture = () => {
         <div
           sx={{
             pt: 190,
-            textAlign: "center",
             pb: 266,
             color: "black",
             fontSize: [14, 16],
@@ -18,7 +17,12 @@ const peinture = () => {
             fontWeight: "bold",
           }}
         >
-          En cours de Traitement...
+          <span sx={{ textAlign: "left" }}>
+            ● pose des revêtements muraux <br />
+            ● réalisation des finitions et embellissements des surfaces <br />
+            ● préparation du support à enduire
+            <br />● appliquer des gammes de peinture, vernis etc....
+          </span>
         </div>
       </div>
     </Layout>

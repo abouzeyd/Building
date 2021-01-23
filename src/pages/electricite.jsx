@@ -9,7 +9,7 @@ const electricite = () => {
         <div
           sx={{
             pt: 190,
-            textAlign: "center",
+            // textAlign: "center",
             pb: 266,
             color: "black",
             fontSize: [14, 16],
@@ -18,7 +18,11 @@ const electricite = () => {
             fontWeight: "bold",
           }}
         >
-          En cours de Traitement...
+          <span sx={{ textAlign: "left" }}>
+            ● la conception des réseaux électriques <br />● l'installation des
+            équipements électriques climatiseur <br />● l'entretien et le
+            dépannage des réseaux et équipements électriques
+          </span>
         </div>
       </div>
     </Layout>

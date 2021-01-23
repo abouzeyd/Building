@@ -20,21 +20,21 @@ const prefabrique = () => {
         >
           <span sx={{}}>
             {" "}
-            . Bâtiments Administratifs
+            ● Bâtiments Administratifs
             <br />
-            . Bâtiments Sanitaires <br />
-            . Bâtiments d’enseignement <br />
-            . Bâtiments Dortoirs <br />
-            . Bâtiments pour installation d’urgence <br />
-            . Bâtiments Réfectoires <br />
-            . Centres de Loisir, Cabines W-C et Douches <br />
-            . Maisons
-            <br /> . Cabines Guérites
-            <br /> . Cabines Kiosques
-            <br /> . Conteneurs kits
-            <br /> . Conteneurs Maritimes <br />
-            . Insonorisation de Bâtiments <br />
-            . Partitionnements de Bâtiments <br />. Aménagements de Bâtiments
+            ● Bâtiments Sanitaires <br />
+            ● Bâtiments d’enseignement <br />
+            ● Bâtiments Dortoirs <br />
+            ● Bâtiments pour installation d’urgence <br />
+            ● Bâtiments Réfectoires <br />
+            ● Centres de Loisir, Cabines W-C et Douches <br />
+            ● Maisons
+            <br /> ● Cabines Guérites
+            <br /> ● Cabines Kiosques
+            <br /> ● Conteneurs kits
+            <br /> ● Conteneurs Maritimes <br />
+            ● Insonorisation de Bâtiments <br />
+            ● Partitionnements de Bâtiments <br />● Aménagements de Bâtiments
           </span>
         </div>
       </div>

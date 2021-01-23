@@ -18,7 +18,12 @@ const carrelage = () => {
             fontWeight: "bold",
           }}
         >
-          En cours de Traitement...
+          <span sx={{ textAlign: "left" }}>
+            ● préparation des surface à carreler
+            <br />
+            ● decoupe des matériaux de revêtement et de finition <br />● pose
+            des matériaux de revêtement et réalisation des jointures
+          </span>
         </div>
       </div>
     </Layout>

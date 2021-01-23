@@ -19,7 +19,7 @@ const climatisation = () => {
           }}
         >
           <span sx={{}}>
-            . l'installation de climatiseur <br />. réparation de climatiseur
+            ● l'installation de climatiseur <br />● réparation de climatiseur
           </span>
         </div>
       </div>
