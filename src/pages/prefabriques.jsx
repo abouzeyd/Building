@@ -27,8 +27,9 @@ const prefabrique = () => {
             ● Bâtiments Dortoirs <br />
             ● Bâtiments pour installation d’urgence <br />
             ● Bâtiments Réfectoires <br />
-            ● Centres de Loisir, Cabines W-C et Douches <br />
-            ● Maisons
+            ● Maisons <br />
+            ● Centres de Loisir <br />
+            ● Cabines W-C et Douches
             <br /> ● Cabines Guérites
             <br /> ● Cabines Kiosques
             <br /> ● Conteneurs kits

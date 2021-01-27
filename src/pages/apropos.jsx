@@ -21,10 +21,10 @@ const apropos = () => {
           L’entreprise Bat&prefab a été fondée en 2018, dynamique, née d'une
           véritable passion pour la conception et la réalisation de bâtiments
           préfabriqués. Notre savoir-faire et nos compétences reposent sur un
-          bureau d'études, nos compétences terrain et des personnels
-          expérimentés et motivés. Quel que soit votre projet, l’entreprise
-          Bat&prefab vous accompagne, identifie l'ensemble de vos besoins et
-          vous propose des bâtiments personnalisés répondant à votre attente.
+          bureau d'études, nos compétences terrain et un personnel expérimenté
+          et motivé. Quel que soit votre projet, l’entreprise Bat&prefab vous
+          accompagne, identifie l'ensemble de vos besoins et vous propose des
+          bâtiments personnalisés répondant à votre attente.
           <h4 sx={{ textAlign: "center", pt: 2 }}>Nos valeurs :</h4>
           "Savoir-faire et Qualité, Engagement, Disponibilité, Responsabilité,
           Confiance et Proximité"

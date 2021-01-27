@@ -17,7 +17,7 @@ export default [
   { link: "", text: "bat&prefab", img: logofb },
   {
     link: "mailto:Batprefab@gmail.com",
-    text: "Batprefab@gmail.com",
+    text: "batprefab@gmail.com",
     img: envelope,
   },
 ]
