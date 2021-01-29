@@ -5,7 +5,7 @@ import logowhatapp from "../images/whatapp.jpg"
 
 export default [
   {
-    link: "https://wa.me/+22549607307?text=urlencodedtext",
+    link: "https://wa.me/+22556121339?text=urlencodedtext",
     text: "56 12 13 39",
     img: logowhatapp,
   },
