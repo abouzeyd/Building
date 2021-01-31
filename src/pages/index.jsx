@@ -13,7 +13,15 @@ const IndexPage = () => {
     "BAT&PREFAB vous offre des espaces de vie super pratiques, des logements préfabriqués, des modules urbains, des produits finis blindés et innovants en offrant des solutions rapides, pratiques, adaptées à toute condition climatique, où tous les processus sont réalisés clé en main avec ses systèmes de préfabriqués, de conteneurs, d’acier léger, d’acier de construction pour vos projets de grande taille ou de taille standard développés pour divers besoins."
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO
+        title="BAT&PREFAB"
+        keywords={[
+          `batiment`,
+          `Maison préfabriquée`,
+          `Conteneur préfabriqué`,
+          `construction`,
+        ]}
+      />
       <Helmet></Helmet>
       <Header
         title="BAT&PREFAB N°1 du bâtiment en C.I."
