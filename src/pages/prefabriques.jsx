@@ -34,7 +34,7 @@ const prefabrique = () => {
             <br /> ● Cabines Kiosques
             <br /> ● Conteneurs kits
             <br /> ● Conteneurs Maritimes <br />
-            ● Insonorisation de Bâtiments <br />
+            ● Insolation de Bâtiments <br />
             ● Partitionnements de Bâtiments <br />● Aménagements de Bâtiments
           </span>
         </div>
