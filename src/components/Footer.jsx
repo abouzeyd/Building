@@ -74,7 +74,13 @@ const Footer = () => {
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
             <h5 sx={{ fontSize: [15, 18] }}>Localisation</h5>
             <div sx={{ fontSize: [12, 14], width: 200 }}>
-              <span>Nous sommes situé à Treichville avenue 21 belle ville</span>
+              <a
+                href="https://maps.app.goo.gl/K22URPRemvuKR9X88"
+                sx={{ color: "white", textDecoration: "none" }}
+              >
+                Nous sommes situé à Koumassi, boulevard du Gabon près d'hôtel
+                Ibis
+              </a>
             </div>
           </div>
         </div>
