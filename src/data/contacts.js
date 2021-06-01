@@ -1,7 +1,7 @@
 import tel from "../images/telephone.svg"
 import envelope from "../images/envelope.svg"
 import logofb from "../images/logofb.svg"
-import logowhatapp from "../images/whatapp.jpg"
+import logowhatapp from "../images/Whatsapp.svg"
 
 export default [
   {

@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import realisation from "../data/realisation.json"
 import contact from "../data/contacts"
 
@@ -37,7 +38,7 @@ const Footer = () => {
                     mb: 1,
                   }}
                 >
-                  <img src={item.img} width="15px" sx={{ mb: 0, mr: 12 }} />
+                  <img src={item.img} width="18px" sx={{ mb: 0, mr: 12 }} />
                   <a
                     href={item.link}
                     sx={{
@@ -74,14 +75,30 @@ const Footer = () => {
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
             <h5 sx={{ fontSize: [15, 18] }}>Localisation</h5>
             <div sx={{ fontSize: [12, 14], width: 200 }}>
-              <a
-                href="https://maps.app.goo.gl/K22URPRemvuKR9X88"
-                sx={{ color: "white", textDecoration: "none" }}
-              >
-                Nous sommes situé à Koumassi, boulevard du Gabon près d'hôtel
-                Ibis
-              </a>
+              Nous sommes situé à Koumassi, boulevard du Gabon près d'hôtel Ibis
             </div>
+            <a
+              href="https://maps.app.goo.gl/K22URPRemvuKR9X88"
+              sx={{
+                color: "white",
+                textDecoration: "none",
+                display: "flex",
+                alignItems: "center",
+                pt: 19,
+              }}
+            >
+              <FontAwesomeIcon icon="map-marker-alt" size="20" />
+              <span
+                sx={{
+                  color: "orange",
+                  textDecoration: "none",
+                  fontSize: 16,
+                  ml: 1,
+                }}
+              >
+                Google Map
+              </span>
+            </a>
           </div>
         </div>
       </div>
