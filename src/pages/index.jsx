@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+import ImageZoom from "react-medium-image-zoom"
 import "../components/FontawesomeIcones"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
@@ -15,22 +16,21 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        title="BAT&PREFAB"
+        title="BAT-PREFAB"
         keywords={[
+          `construction`,
           `batiment`,
           `Maison préfabriquée`,
           `Conteneur préfabriqué`,
-          `construction`,
         ]}
       />
       <Helmet></Helmet>
-      <Header
-        title="BAT&PREFAB N°1 du bâtiment en C.I."
-        // subtitle="avec Nous vous aurez une maison en moin de 3 mois"
-      />
+      <Header title="BAT-PREFAB N°1 du bâtiment en C.I." />
       <meta
-        name="google-site-verification"
-        content="6TMmoI5CeA65Ph2ASOjPFbxRmlvE4uqboSyZUEmC8cY"
+        // name="google-site-verification"
+        name="BAT-PREFAB"
+        // content="6TMmoI5CeA65Ph2ASOjPFbxRmlvE4uqboSyZUEmC8cY"
+        content="construction de Batiment prefabriquée"
       />
       <div
         sx={{
@@ -176,16 +176,16 @@ const IndexPage = () => {
                   sx={{
                     display: "flex",
                     flexDirection: ["column", "row"],
+                    mr: [1, 25],
                   }}
                 >
-                  <img
-                    src={item.image}
-                    sx={{
-                      mr: [1, 25],
-                      width: [200, 120, 140, 170],
-                      pb: [0, 65, 150],
+                  <ImageZoom
+                    image={{
+                      src: `${item.image}`,
+                      alt: "Golden ",
+                      className: "img",
+                      style: { width: "50em" },
                     }}
-                    alt="blocTroisImage"
                   />
                 </div>
               )

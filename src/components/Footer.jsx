@@ -58,8 +58,8 @@ const Footer = () => {
             {realisation.map((item, i) => {
               return (
                 <li key={i.toString()} sx={{ listStyle: "none", mb: 1 }}>
-                  <span
-                    // href={item.slug}
+                  <a
+                    href={item.slug}
                     sx={{
                       textDecoration: "none",
                       color: "white",
@@ -67,7 +67,7 @@ const Footer = () => {
                     }}
                   >
                     <span>{item.title}</span>
-                  </span>
+                  </a>
                 </li>
               )
             })}
@@ -75,7 +75,8 @@ const Footer = () => {
           <div sx={{ textAlign: ["center", "left"], pt: [10, 0] }}>
             <h5 sx={{ fontSize: [15, 18] }}>Localisation</h5>
             <div sx={{ fontSize: [12, 14], width: 200 }}>
-              Nous sommes situé à Koumassi, boulevard du Gabon près d'hôtel Ibis
+              Nous sommes situé à Koumassi, boulevard du Gabon près de l'hôtel
+              Ibis
             </div>
             <a
               href="https://maps.app.goo.gl/K22URPRemvuKR9X88"
@@ -84,6 +85,7 @@ const Footer = () => {
                 textDecoration: "none",
                 display: "flex",
                 alignItems: "center",
+                justifyContent: ["center", "left"],
                 pt: 19,
               }}
             >

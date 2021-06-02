@@ -2,6 +2,7 @@
 import { jsx } from "theme-ui"
 import Layout from "../components/Layout"
 import cataloguer from "../data/catalogue"
+import ImageZoom from "react-medium-image-zoom"
 
 const catalogue = () => {
   return (
@@ -21,7 +22,16 @@ const catalogue = () => {
           {cataloguer.map(item => {
             return (
               <div>
-                <img src={item.image} sx={{ width: [300, 900] }} />
+                {/* <img src={item.image} sx={{ width: [300, 900] }} /> */}
+
+                <ImageZoom
+                  image={{
+                    src: `${item.image}`,
+                    alt: "Golden Gate Bridge",
+                    className: "img",
+                    style: { width: "50em" },
+                  }}
+                />
               </div>
             )
           })}

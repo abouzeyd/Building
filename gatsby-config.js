@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `BAT&PREFAB`,
-    description: `Site Immobilier.`,
-    author: `@abouzayd`,
-    keywords: "batiment,batiment,batiment,batiment,batiment,prefabrique",
+    title: `BAT-PREFAB`,
+    description: `Immobilier en Côte D'ivoire.`,
+    author: `@Abouzayd`,
+    keywords: "Immobilier,Maison,Logement,Bâtiment,Bâtiment,Préfabrique",
     url: "https://www.batprefab.com",
   },
   plugins: [
